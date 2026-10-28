@@ -1,0 +1,10 @@
+{
+  "name": "meetmind-backend",
+  "version": "2.0.0",
+  "description": "Signaling, chat, transcript and AI-notes server for MeetMind",
+  "main": "index.js",
+  "scripts": { "start": "node index.js", "dev": "node --watch index.js" },
+  "engines": { "node": ">=18" },
+  "license": "ISC",
+  "dependencies": { "cors": "^2.8.6", "dotenv": "^16.4.5", "express": "^5.2.1", "socket.io": "^4.8.3" }
+}
